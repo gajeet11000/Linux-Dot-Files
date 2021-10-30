@@ -4,11 +4,11 @@ sudo pacman -Syu
 
 sudo pacman -S --noconfirm base-devel
 
-sudo pacman -S --noconfirm firefox gimp telegram-desktop mpv rofi gvim gcc gnome-disk-utility mintstick moc cowsay fortune-mod cmatrix lolcat otf-cascadia-code deluge-gtk gnome-calculator asciiquarium fish nomacs xournalpp bitwarden pinta lsd fisher yay dconf-editor flameshot okular
+sudo pacman -S --noconfirm firefox gimp telegram-desktop mpv rofi gvim gcc gnome-disk-utility mintstick moc cowsay fortune-mod cmatrix lolcat otf-cascadia-code deluge-gtk gnome-calculator asciiquarium fish nomacs xournalpp bitwarden pinta lsd fisher yay dconf-editor flameshot okular code
 
 sudo pacman -R --noconfirm midori parole mousepad
 
-yay -S --noconfirm safeeyes teamviewer gammy
+yay -S --noconfirm safeeyes teamviewer gammy sublime-text-4
 
 cp -r .config/ .fonts/ .icons/ .moc/ .vim/ .local/ .xdman/ .gvimrc .vimrc ~/
 
