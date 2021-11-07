@@ -16,6 +16,8 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 git clone https://github.com/vinceliuice/Tela-circle-icon-theme.git ~/Downloads
 git clone https://github.com/vinceliuice/Orchis-theme.git ~/Downloads
 
+dconf load /org/cinnamon/ < cinnamon_desktop_backup
+
 ~/Downloads/Tela-circle-icon-theme/./install.sh -a
 sudo ~/Downloads/Orchis-theme/./install.sh -t all
 
