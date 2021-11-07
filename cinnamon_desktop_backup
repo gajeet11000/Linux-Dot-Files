@@ -1,0 +1,210 @@
+[/]
+desklet-decorations=0
+desklet-snap=true
+desklet-snap-interval=25
+desktop-effects-close-effect='traditional'
+desktop-effects-close-time=120
+desktop-effects-close-transition='easeOutQuad'
+desktop-effects-map-effect='traditional'
+desktop-effects-map-time=100
+desktop-effects-map-transition='easeOutQuad'
+desktop-effects-maximize-effect='scale'
+desktop-effects-maximize-time=200
+desktop-effects-maximize-transition='easeInExpo'
+desktop-effects-minimize-effect='traditional'
+desktop-effects-minimize-time=160
+desktop-effects-minimize-transition='easeInQuad'
+desktop-effects-tile-effect='none'
+desktop-effects-tile-time=100
+desktop-effects-tile-transition='easeInQuad'
+desktop-effects-unmaximize-effect='scale'
+desktop-effects-unmaximize-time=100
+desktop-effects-unmaximize-transition='easeNone'
+enabled-applets=['panel1:left:5:grouped-window-list@cinnamon.org:5', 'panel1:right:8:notifications@cinnamon.org:6', 'panel1:right:9:separator@cinnamon.org:9', 'panel1:right:10:systray@cinnamon.org:10', 'panel1:right:11:separator@cinnamon.org:11', 'panel1:right:12:removable-drives@cinnamon.org:12', 'panel1:right:13:network@cinnamon.org:13', 'panel1:right:14:sound@cinnamon.org:14', 'panel1:right:15:power@cinnamon.org:15', 'panel1:right:16:calendar@cinnamon.org:17', 'panel1:left:0:user@cinnamon.org:18', 'panel1:right:3:download-and-upload-speed@cardsurf:22', 'panel1:right:7:trash@cinnamon.org:24', 'panel1:right:5:recent@cinnamon.org:26', 'panel1:right:4:color-picker@fmete:27']
+enabled-desklets=['TimeAndDate@nightflame:8:825:75']
+enabled-extensions=['Flipper@connerdev', 'transparent-panels@germanfr']
+hotcorner-layout=['expo:true:200', 'scale:true:200', 'scale:false:0', 'desktop:false:0']
+next-applet-id=31
+next-desklet-id=12
+panel-edit-mode=false
+panel-zone-icon-sizes='[{"panelId": 1, "left": 48, "center": 0, "right": 48}]'
+panel-zone-symbolic-icon-sizes='[{"panelId": 1, "left": 22, "center": 28, "right": 22}]'
+panel-zone-text-sizes='[{"panelId": 1, "left": 0.0, "center": 0.0, "right": 10.0}]'
+panels-enabled=['1:0:top']
+panels-height=['1:26']
+
+[cinnamon-session]
+quit-time-delay=60
+
+[desktop/a11y/applications]
+screen-magnifier-enabled=true
+
+[desktop/a11y/keyboard]
+bouncekeys-delay=300
+mousekeys-accel-time=300
+mousekeys-init-delay=300
+mousekeys-max-speed=10
+slowkeys-delay=300
+
+[desktop/a11y/magnifier]
+mag-factor=1.0
+
+[desktop/a11y/mouse]
+dwell-threshold=10
+dwell-time=1.2
+secondary-click-time=1.2
+
+[desktop/applications/terminal]
+exec='xfce4-terminal'
+
+[desktop/background]
+picture-uri='file:///mnt/Ajeet/PHOTOS/Wallpapers/0140.jpg'
+
+[desktop/background/slideshow]
+delay=15
+image-source='directory:///mnt/Ajeet/PHOTOS/Wallpapers'
+
+[desktop/interface]
+cursor-blink-time=1296
+cursor-size=28
+cursor-theme='Bibata-Rainbow-Modern'
+font-name='Roboto 10'
+gtk-theme='Orchis-purple-dark'
+icon-theme='Tela-circle-purple'
+scaling-factor=uint32 0
+text-scaling-factor=1.25
+
+[desktop/keybindings]
+custom-list=['custom7', 'custom0', '__dummy__', 'custom1', 'custom2', 'custom3', 'custom4', 'custom5', 'custom6', 'custom8']
+show-desklets=@as []
+
+[desktop/keybindings/custom-keybindings/custom0]
+binding=['<Super>e']
+command='nemo'
+name='Home'
+
+[desktop/keybindings/custom-keybindings/custom1]
+binding=['<Primary><Alt>d']
+command='nemo Downloads/'
+name='Downloads'
+
+[desktop/keybindings/custom-keybindings/custom2]
+binding=['<Super>a']
+command='nemo /mnt/Ajeet'
+name='Ajeet'
+
+[desktop/keybindings/custom-keybindings/custom3]
+binding=['<Super>space']
+command='rofi -show drun'
+name='Rofi'
+
+[desktop/keybindings/custom-keybindings/custom4]
+binding=['<Super>f']
+command='firefox'
+name='Firefox'
+
+[desktop/keybindings/custom-keybindings/custom5]
+binding=['<Shift><Super>Return']
+command='xfce4-terminal --drop-down --hide-menubar -x mocp'
+name='Mocp'
+
+[desktop/keybindings/custom-keybindings/custom6]
+binding=['<Primary><Alt>x']
+command='xkill'
+name='Kill'
+
+[desktop/keybindings/custom-keybindings/custom7]
+binding=['<Super>Return']
+command='xfce4-terminal'
+name='Terminal'
+
+[desktop/keybindings/custom-keybindings/custom8]
+binding=['Print']
+command='flameshot gui'
+name='Flameshot'
+
+[desktop/keybindings/media-keys]
+area-screenshot=@as []
+area-screenshot-clip=@as []
+calculator=@as []
+email=@as []
+home=@as []
+mute-quiet=['<Super>m']
+screenshot=@as []
+screenshot-clip=@as []
+search=@as []
+terminal=@as []
+volume-down-quiet=['<Super>semicolon']
+volume-up-quiet=['<Super>apostrophe']
+window-screenshot=@as []
+window-screenshot-clip=@as []
+www=@as []
+
+[desktop/keybindings/wm]
+activate-window-menu=@as []
+close=['<Super>Delete']
+minimize=['<Super>BackSpace']
+move-to-workspace-left=['<Primary>Page_Up']
+move-to-workspace-right=['<Primary>Page_Down']
+switch-to-workspace-1=['<Super>1']
+switch-to-workspace-2=['<Super>2']
+switch-to-workspace-3=['<Super>3']
+switch-to-workspace-4=['<Super>4']
+switch-to-workspace-down=['<Alt>space']
+switch-to-workspace-left=['<Super>comma']
+switch-to-workspace-right=['<Super>period']
+switch-to-workspace-up=['<Super>grave']
+switch-windows-backward=['<Shift>Tab']
+toggle-maximized=['<Super>backslash']
+toggle-recording=@as []
+
+[desktop/media-handling]
+autorun-never=false
+
+[desktop/sound]
+event-sounds=false
+maximum-volume=150
+
+[desktop/wm/preferences]
+mouse-button-zoom-modifier='<Super>'
+num-workspaces=2
+theme='Orchis-purple-light'
+titlebar-font='Roboto 10'
+workspace-names=@as []
+
+[launcher]
+check-frequency=300
+memory-limit=2048
+memory-limit-enabled=false
+
+[muffin]
+tile-hud-threshold=25
+
+[settings-daemon/peripherals/keyboard]
+delay=uint32 500
+numlock-state='on'
+repeat-interval=uint32 30
+
+[settings-daemon/peripherals/mouse]
+double-click=400
+drag-threshold=8
+motion-threshold=1
+
+[settings-daemon/peripherals/touchpad]
+motion-threshold=1
+
+[settings-daemon/plugins/power]
+lid-close-ac-action='suspend'
+lid-close-battery-action='suspend'
+sleep-display-ac=300
+sleep-display-battery=300
+sleep-inactive-ac-timeout=0
+sleep-inactive-battery-timeout=0
+
+[sounds]
+login-enabled=false
+logout-enabled=false
+switch-enabled=false
+
+[theme]
+name='Orchis-purple-dark'
