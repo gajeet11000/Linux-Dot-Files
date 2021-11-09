@@ -4,7 +4,7 @@ sudo pacman -Syu
 
 sudo pacman -S --noconfirm base-devel
 
-sudo pacman -S --noconfirm firefox gimp telegram-desktop mpv rofi gvim gcc gnome-disk-utility mintstick moc cowsay fortune-mod cmatrix lolcat otf-cascadia-code deluge-gtk gnome-calculator asciiquarium fish nomacs xournalpp bitwarden pinta lsd fisher yay dconf-editor flameshot okular code pdfarranger cheese libreoffice-still
+sudo pacman -S --noconfirm firefox gimp telegram-desktop mpv rofi gvim gcc gnome-disk-utility mintstick moc cowsay fortune-mod cmatrix lolcat otf-cascadia-code deluge-gtk gnome-calculator asciiquarium fish nomacs xournalpp bitwarden pinta lsd fisher yay dconf-editor flameshot okular code pdfarranger cheese libreoffice-still p7zip
 
 sudo pacman -R --noconfirm midori parole mousepad
 
