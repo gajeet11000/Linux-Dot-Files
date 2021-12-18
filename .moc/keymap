@@ -4,8 +4,8 @@ toggle_menu = RIGHT LEFT
 quit = DEL 
 seek_forward = ]
 seek_backward = [
-#seek_forward_fast = )
-#seek_backward_fast = (
+seek_forward_fast = )
+seek_backward_fast = (
 
 #seek_forward_fast = ]
 #seek_backward_fast = [

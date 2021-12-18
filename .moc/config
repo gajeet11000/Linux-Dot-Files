@@ -308,8 +308,8 @@ Keymap = keymap
 
 # How fast to seek (in number of seconds per keystroke).  The first
 # option is for normal seek and the second for silent seek.
-#SeekTime = 1
-#SilentSeekTime = 5
+SeekTime = 5
+SilentSeekTime = 5
 
 # PreferredDecoders allows you to specify which decoder should be used
 # for any given audio format.  It is a colon-separated list in which
