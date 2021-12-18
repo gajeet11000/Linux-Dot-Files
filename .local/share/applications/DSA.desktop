@@ -3,7 +3,7 @@ Version=1.0
 Type=Application
 Name=DSA
 Comment=
-Exec=firefox https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ
+Exec=exo-open --launch WebBrowser https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ
 Icon=emote-love
 Path=
 Terminal=false
