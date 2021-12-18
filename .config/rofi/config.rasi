@@ -6,5 +6,11 @@ configuration
 	icon-theme: "candy-icons";
 	drun-display-format: "{name}";
 	display-drun: "Run ▶ ";
+	matching: "prefix";
+	drun-match-fields: "name, generic, exec, categories";
+	hover-select: true;
+	me-select-entry: "";
+	me-accept-entry: [ MousePrimary ];
+
 }
 @theme "/home/gajeet/.config/rofi/themes/aj-dmenu.rasi"
