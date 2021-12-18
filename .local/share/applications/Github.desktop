@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Github
+Exec=google-chrome-stable https://github.com/gajeet11000?tab=repositories
+Comment=
+Terminal=false
+Icon=github
+Type=Application
