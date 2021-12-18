@@ -1,4 +1,5 @@
 [/]
+alttab-switcher-delay=100
 desklet-decorations=0
 desklet-snap=true
 desklet-snap-interval=25
@@ -20,18 +21,21 @@ desktop-effects-tile-transition='easeInQuad'
 desktop-effects-unmaximize-effect='scale'
 desktop-effects-unmaximize-time=100
 desktop-effects-unmaximize-transition='easeNone'
-enabled-applets=['panel1:left:5:grouped-window-list@cinnamon.org:5', 'panel1:right:8:notifications@cinnamon.org:6', 'panel1:right:9:separator@cinnamon.org:9', 'panel1:right:10:systray@cinnamon.org:10', 'panel1:right:11:separator@cinnamon.org:11', 'panel1:right:12:removable-drives@cinnamon.org:12', 'panel1:right:13:network@cinnamon.org:13', 'panel1:right:14:sound@cinnamon.org:14', 'panel1:right:15:power@cinnamon.org:15', 'panel1:right:16:calendar@cinnamon.org:17', 'panel1:left:0:user@cinnamon.org:18', 'panel1:right:3:download-and-upload-speed@cardsurf:22', 'panel1:right:7:trash@cinnamon.org:24', 'panel1:right:5:recent@cinnamon.org:26', 'panel1:right:4:color-picker@fmete:27']
+enabled-applets=['panel1:left:1:grouped-window-list@cinnamon.org:5', 'panel1:right:10:notifications@cinnamon.org:6', 'panel1:right:5:separator@cinnamon.org:9', 'panel1:right:7:systray@cinnamon.org:10', 'panel1:right:8:separator@cinnamon.org:11', 'panel1:right:9:removable-drives@cinnamon.org:12', 'panel1:right:11:network@cinnamon.org:13', 'panel1:right:12:sound@cinnamon.org:14', 'panel1:right:13:power@cinnamon.org:15', 'panel1:right:14:calendar@cinnamon.org:17', 'panel1:right:1:download-and-upload-speed@cardsurf:22', 'panel1:right:4:trash@cinnamon.org:24', 'panel1:right:2:color-picker@fmete:27', 'panel1:left:0:Cinnamenu@json:32']
 enabled-desklets=['TimeAndDate@nightflame:8:825:75']
 enabled-extensions=['Flipper@connerdev', 'transparent-panels@germanfr']
 hotcorner-layout=['expo:true:200', 'scale:true:200', 'scale:false:0', 'desktop:false:0']
-next-applet-id=31
+looking-glass-history=['asdf']
+next-applet-id=33
 next-desklet-id=12
 panel-edit-mode=false
 panel-zone-icon-sizes='[{"panelId": 1, "left": 48, "center": 0, "right": 48}]'
-panel-zone-symbolic-icon-sizes='[{"panelId": 1, "left": 22, "center": 28, "right": 22}]'
+panel-zone-symbolic-icon-sizes='[{"panelId": 1, "left": 28, "center": 28, "right": 22}]'
 panel-zone-text-sizes='[{"panelId": 1, "left": 0.0, "center": 0.0, "right": 10.0}]'
 panels-enabled=['1:0:top']
 panels-height=['1:26']
+workspace-expo-view-as-grid=true
+workspace-osd-visible=true
 
 [cinnamon-session]
 quit-time-delay=60
@@ -58,7 +62,7 @@ secondary-click-time=1.2
 exec='xfce4-terminal'
 
 [desktop/background]
-picture-uri='file:///mnt/Ajeet/PHOTOS/Wallpapers/0140.jpg'
+picture-uri='file:///mnt/Ajeet/PHOTOS/Wallpapers/Jack B_8Wqm1W59Baw.jpeg'
 
 [desktop/background/slideshow]
 delay=15
@@ -69,13 +73,13 @@ cursor-blink-time=1296
 cursor-size=28
 cursor-theme='Bibata-Rainbow-Modern'
 font-name='Roboto 10'
-gtk-theme='Orchis-purple-dark'
-icon-theme='Tela-circle-purple'
+gtk-theme='Dracula-alt-style'
+icon-theme='Tela-circle-purple-dark'
 scaling-factor=uint32 0
 text-scaling-factor=1.25
 
 [desktop/keybindings]
-custom-list=['custom7', 'custom0', '__dummy__', 'custom1', 'custom2', 'custom3', 'custom4', 'custom5', 'custom6', 'custom8']
+custom-list=['custom9', 'custom7', 'custom0', '__dummy__', 'custom1', 'custom2', 'custom3', 'custom4', 'custom5', 'custom6', 'custom8', 'custom10']
 show-desklets=@as []
 
 [desktop/keybindings/custom-keybindings/custom0]
@@ -87,6 +91,11 @@ name='Home'
 binding=['<Primary><Alt>d']
 command='nemo Downloads/'
 name='Downloads'
+
+[desktop/keybindings/custom-keybindings/custom10]
+binding=['<Super>s']
+command='nemo /home/gajeet/Pictures/Screenshots/'
+name='Screenshots Folder'
 
 [desktop/keybindings/custom-keybindings/custom2]
 binding=['<Super>a']
@@ -100,8 +109,8 @@ name='Rofi'
 
 [desktop/keybindings/custom-keybindings/custom4]
 binding=['<Super>f']
-command='firefox'
-name='Firefox'
+command='google-chrome-stable'
+name='Web Browser'
 
 [desktop/keybindings/custom-keybindings/custom5]
 binding=['<Shift><Super>Return']
@@ -122,6 +131,11 @@ name='Terminal'
 binding=['Print']
 command='flameshot gui'
 name='Flameshot'
+
+[desktop/keybindings/custom-keybindings/custom9]
+binding=['<Shift>Print']
+command='xfce4-screenshooter -wmcs /home/gajeet/Pictures/Screenshots/'
+name='Screenshot Active Window'
 
 [desktop/keybindings/media-keys]
 area-screenshot=@as []
@@ -166,9 +180,11 @@ event-sounds=false
 maximum-volume=150
 
 [desktop/wm/preferences]
+button-layout='close,maximize,minimize:'
+min-window-opacity=30
 mouse-button-zoom-modifier='<Super>'
 num-workspaces=2
-theme='Orchis-purple-light'
+theme='Dracula-alt-style'
 titlebar-font='Roboto 10'
 workspace-names=@as []
 
@@ -178,7 +194,9 @@ memory-limit=2048
 memory-limit-enabled=false
 
 [muffin]
+resize-threshold=24
 tile-hud-threshold=25
+workspace-cycle=true
 
 [settings-daemon/peripherals/keyboard]
 delay=uint32 500
@@ -191,9 +209,13 @@ drag-threshold=8
 motion-threshold=1
 
 [settings-daemon/peripherals/touchpad]
+horizontal-scrolling=true
 motion-threshold=1
+scrolling-method=1
 
 [settings-daemon/plugins/power]
+button-power='interactive'
+idle-dim-battery=false
 lid-close-ac-action='suspend'
 lid-close-battery-action='suspend'
 sleep-display-ac=300
@@ -207,4 +229,4 @@ logout-enabled=false
 switch-enabled=false
 
 [theme]
-name='Orchis-purple-dark'
+name='Dracula-alt-style'
