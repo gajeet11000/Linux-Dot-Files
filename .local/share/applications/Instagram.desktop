@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Instagram
+Comment=
+Exec=exo-open --launch WebBrowser http://instagram.com
+Icon=instagram
+Path=
+Terminal=false
+StartupNotify=false

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Moocs
+Comment=
+Exec=exo-open --launch FileManager /mnt/Ajeet/EDUCATION/MOOCs/Udemy/
+Icon=/home/gajeet/.icons/candy-icons/places/48/folder.svg
+Path=
+Terminal=false
+StartupNotify=false

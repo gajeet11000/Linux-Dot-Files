@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Wallpapers
+Comment=
+Exec=exo-open --launch FileManager /mnt/Ajeet/PHOTOS/Wallpapers/
+Icon=/home/gajeet/.icons/candy-icons/apps/scalable/appimagekit-tutanota-desktop.svg
+Path=
+Terminal=false
+StartupNotify=false

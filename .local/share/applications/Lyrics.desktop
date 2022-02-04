@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Lyrics
+Exec=xfce4-terminal --hide-menubar --hide-borders --hide-scrollbar --title Lyrics -x sptlrx
+Comment=
+Terminal=false
+Icon=cinnamon-panel-launcher
+Type=Application

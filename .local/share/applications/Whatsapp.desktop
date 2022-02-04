@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Whatsapp
+Comment=
+Exec=exo-open --launch WebBrowser http://web.whatsapp.com
+Icon=/home/gajeet/.icons/candy-icons/apps/scalable/chrome-bgkodfmeijboinjdegggmkbkjfiagaan-Default.svg
+Path=
+Terminal=false
+StartupNotify=false

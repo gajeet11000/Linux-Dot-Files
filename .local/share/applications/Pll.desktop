@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Pll
+Comment=
+Exec=qpdfview /mnt/Ajeet/PDF\\ BOOKS/Cube\\ Solving/pll-algorithms.pdf
+Icon=
+Path=
+Terminal=false
+StartupNotify=false
