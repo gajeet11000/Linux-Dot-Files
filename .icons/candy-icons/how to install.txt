@@ -1,3 +1,0 @@
-extract to /usr/share/icons
-
-After extract /usr/share/icons/candy-icons
