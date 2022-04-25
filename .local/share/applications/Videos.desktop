@@ -1,10 +1,20 @@
 [Desktop Entry]
-Version=1.0
-Type=Application
-Name=Videos
+Comment[en_IN]=
 Comment=
-Exec=exo-open --launch FileManager /mnt/Ajeet/VIDEOS/
-Icon=/home/gajeet/.icons/candy-icons/apps/scalable/org.avidemux.Avidemux.svg
+Exec=dolphin /mnt/Ajeet/VIDEOS/
+GenericName[en_IN]=
+GenericName=
+Icon=com.github.unrud.VideoDownloader
+MimeType=
+Name[en_IN]=Videos
+Name=Videos
 Path=
-Terminal=false
 StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,10 +1,20 @@
 [Desktop Entry]
-Version=1.0
-Type=Application
-Name=Wallpapers
+Comment[en_IN]=
 Comment=
-Exec=exo-open --launch FileManager /mnt/Ajeet/PHOTOS/Wallpapers/
-Icon=/home/gajeet/.icons/candy-icons/apps/scalable/appimagekit-tutanota-desktop.svg
+Exec=dolphin /mnt/Ajeet/PHOTOS/Wallpapers/
+GenericName[en_IN]=
+GenericName=
+Icon=org.deepin.flatdeb.deepin-image-viewer
+MimeType=
+Name[en_IN]=Wallpapers
+Name=Wallpapers
 Path=
-Terminal=false
 StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

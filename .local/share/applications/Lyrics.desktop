@@ -1,7 +1,19 @@
 [Desktop Entry]
-Name=Lyrics
-Exec=xfce4-terminal --hide-menubar --hide-borders --hide-scrollbar --title Lyrics -x sptlrx
+Comment[en_IN]=
 Comment=
+Exec=xfce4-terminal --hide-menubar --hide-borders --hide-scrollbar --title Lyrics -x sptlrx
+GenericName[en_IN]=
+GenericName=
+Icon=netease-cloud-music-gtk
+MimeType=
+Name[en_IN]=Lyrics
+Name=Lyrics
+Path=
+StartupNotify=true
 Terminal=false
-Icon=cinnamon-panel-launcher
+TerminalOptions=
 Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

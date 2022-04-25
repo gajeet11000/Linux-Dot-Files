@@ -1,19 +1,19 @@
+#!/usr/bin/env xdg-open
 [Desktop Entry]
 Comment[en_IN]=
 Comment=
-Exec=dolphin /mnt/Ajeet/EDUCATION/MOOCs/Udemy/
-GenericName[en_IN]=
-GenericName=
-Icon=thunar-filemanager
+Exec=/opt/VSCode-linux-x64/code
+GenericName[en_IN]=Text Editor
+GenericName=Text Editor
+Icon=vscode
 MimeType=
-Name[en_IN]=Moocs
-Name=Moocs
+Name[en_IN]=Vscode
+Name=Vscode
 Path=
-StartupNotify=false
+StartupNotify=true
 Terminal=false
 TerminalOptions=
 Type=Application
-Version=1.0
 X-DBUS-ServiceName=
 X-DBUS-StartupType=
 X-KDE-SubstituteUID=false

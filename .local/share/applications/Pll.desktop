@@ -1,10 +1,20 @@
 [Desktop Entry]
-Version=1.0
-Type=Application
-Name=Pll
+Comment[en_IN]=
 Comment=
 Exec=qpdfview /mnt/Ajeet/PDF\\ BOOKS/Cube\\ Solving/pll-algorithms.pdf
-Icon=
+GenericName[en_IN]=
+GenericName=
+Icon=application-pdf
+MimeType=
+Name[en_IN]=Pll
+Name=Pll
 Path=
-Terminal=false
 StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

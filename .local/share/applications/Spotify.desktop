@@ -1,19 +1,18 @@
 [Desktop Entry]
 Comment[en_IN]=
 Comment=
-Exec=dolphin /mnt/Ajeet/EDUCATION/MOOCs/Udemy/
+Exec=google-chrome-stable open.spotify.com
 GenericName[en_IN]=
 GenericName=
-Icon=thunar-filemanager
+Icon=Spotify
 MimeType=
-Name[en_IN]=Moocs
-Name=Moocs
+Name[en_IN]=Spotify
+Name=Spotify
 Path=
-StartupNotify=false
+StartupNotify=true
 Terminal=false
 TerminalOptions=
 Type=Application
-Version=1.0
 X-DBUS-ServiceName=
 X-DBUS-StartupType=
 X-KDE-SubstituteUID=false

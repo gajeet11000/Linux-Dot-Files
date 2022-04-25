@@ -3,7 +3,7 @@ Version=1.0
 Type=Application
 Name=DSA
 Comment=
-Exec=exo-open --launch WebBrowser https://www.youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA
+Exec=google-chrome-stable https://www.youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA
 Icon=emote-love
 Path=
 Terminal=false

@@ -1,10 +1,20 @@
 [Desktop Entry]
-Version=1.0
-Type=Application
-Name=Instagram
+Comment[en_IN]=
 Comment=
-Exec=exo-open --launch WebBrowser http://instagram.com
-Icon=instagram
+Exec=google-chrome-stable http://instagram.com
+GenericName[en_IN]=
+GenericName=
+Icon=metacity
+MimeType=
+Name[en_IN]=Instagram
+Name=Instagram
 Path=
-Terminal=false
 StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

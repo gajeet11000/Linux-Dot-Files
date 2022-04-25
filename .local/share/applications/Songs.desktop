@@ -1,10 +1,20 @@
 [Desktop Entry]
-Version=1.0
-Type=Application
-Name=Songs
+Comment[en_IN]=
 Comment=
-Exec=exo-open --launch FileManager /mnt/Ajeet/SONGS
-Icon=/home/gajeet/.icons/candy-icons/apps/scalable/org.gnome.music.svg
+Exec=dolphin /mnt/Ajeet/SONGS
+GenericName[en_IN]=
+GenericName=
+Icon=web-google-play-music
+MimeType=
+Name[en_IN]=Songs
+Name=Songs
 Path=
-Terminal=false
 StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,10 +1,20 @@
 [Desktop Entry]
-Version=1.0
-Type=Application
-Name=Softwares
+Comment[en_IN]=
 Comment=
-Exec=exo-open --launch FileManager /mnt/Ajeet/SOFTWARE/
-Icon=/home/gajeet/.icons/candy-icons/preferences/scalable/beryl-settings.svg
+Exec=dolphin /mnt/Ajeet/SOFTWARE/
+GenericName[en_IN]=
+GenericName=
+Icon=thunar-filemanager
+MimeType=
+Name[en_IN]=Softwares
+Name=Softwares
 Path=
-Terminal=false
 StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
